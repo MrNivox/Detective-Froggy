@@ -5,10 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class SceneChanger : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    
+    
+        void Start()
     {
-        
+        DontDestroyOnLoad(this.gameObject);
     }
 
     // Update is called once per frame
@@ -25,4 +26,9 @@ public class SceneChanger : MonoBehaviour
       {
        SceneManager.LoadScene("");
       }
+      
+      
+     
+
 }
+

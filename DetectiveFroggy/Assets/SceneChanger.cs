@@ -20,7 +20,7 @@ public class SceneChanger : MonoBehaviour
       }
       public void SceneChange2() 
       {
-       SceneManager.LoadScene("");
+       SceneManager.LoadScene("SampleScene");
       }
        public void SceneChange3() 
       {

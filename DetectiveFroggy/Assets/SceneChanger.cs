@@ -9,15 +9,15 @@ public class SceneChanger : MonoBehaviour
     
         void Start()
     {
-        DontDestroyOnLoad(this.gameObject);
+       
     }
 
     // Update is called once per frame
     
       public void SceneChange1()
-        {
-         SceneManager.LoadScene("SampleScene");
-        }
+      {
+       SceneManager.LoadScene("LevelMenu");
+      }
       public void SceneChange2() 
       {
        SceneManager.LoadScene("");
